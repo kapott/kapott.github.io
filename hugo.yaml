@@ -1,0 +1,21 @@
+baseURL: https://tomherder.io
+languageCode: en-us
+title: Tom Herder
+theme: ["PaperMod"]
+enableEmoji: true
+params:
+  ShowShareButtons: true
+  defaultTheme: dark
+  homeInfoParams:
+    Title: ":floppy_disk:"
+    Content: Just an entrepreneurial software developer / hacker navigating life through his obsession with puzzles, tech and futurism. Father of two. Neurodivergent. Loving life.
+  socialIcons: # optional
+    - name: "code."
+      url: "https://github.com/kapott"
+    - name: "x, the platform formerly known as twitter."
+      url: "https://x.com/kapott_"
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
