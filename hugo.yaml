@@ -5,7 +5,7 @@ theme: ["PaperMod"]
 enableEmoji: true
 params:
   ShowShareButtons: true
-  defaultTheme: dark
+  defaultTheme: auto
   homeInfoParams:
     Title: ":floppy_disk:"
     Content: Just an entrepreneurial software developer / hacker navigating life through his obsession with puzzles, tech and futurism. Father of two. Neurodivergent. Loving life.
