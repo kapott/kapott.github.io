@@ -1,9 +1,12 @@
 ---
-date: 2024-11-28
-draft: false
+date: 2024-01-01
+draft: true
+author: Tom Herder
 title: A hacker's manifesto, in 2024
 tags:
-  - hacking
+ - hacking
+category:
+ - hacking
 ---
 
 Another one got caught today. It’s all over the newsfeeds: “Teen Arrested in Cybercrime Scandal,” “Hacker Infiltrates Financial Systems.”
@@ -16,14 +19,21 @@ I am a hacker. Step into my world.
 
 Mine is a world forged in the classroom. A place where I’m surrounded by mundane lessons on topics I mastered long ago, where innovation is stifled, and curiosity is punished.
 
-“Why didn’t you show your work?”  
-Because I solved it in my head.  
-“Cheater. Underachiever. Trouble-maker.”  
+“Why didn’t you show your work?”
+
+Because I solved it in my head.
+
+“Cheater. Underachiever. Trouble-maker.”
+
 Damn kids. They’re all alike.
 
 Then I found it—my first computer. A machine that responded with precision and logic, free of bias, free of judgment. If something went wrong, it was because _I_ made an error, not because of some arbitrary authority’s opinion.
 
+  
+
 Damn kid. All he does is play games. They’re all alike.
+
+  
 
 But then something clicked. A gateway opened, not through clunky dial-ups but via fiber-optic lines, encrypted tunnels, and the boundless possibilities of the cloud. I found a network of minds, a community of explorers who saw the world as it could be—not as it was dictated to us.
 
@@ -44,4 +54,5 @@ Yes, I am a criminal. My crime is curiosity. My crime is valuing ideas over appe
 I am a hacker, and this is my manifesto. You may catch one of us, but you’ll never stop us all. After all, we’re all alike.
 
 ---
+
 Note from Tom: I found it only fitting to have the original manifesto, by The Mentor, rewritten by ChatGPT.
