@@ -19,3 +19,5 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+refLinksErrorLevel: "WARNING"
+refLinksNotFoundURL: '#'

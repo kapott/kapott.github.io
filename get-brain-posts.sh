@@ -5,5 +5,8 @@
 #DEST_DIR="$PWD/content/posts"
 
 source .env
-rsync -avh $SRC_DIR/*.md $DEST_DIR/ --delete
-rsync -avh $SRC_DIR/images/* $PWD/static/images/
+rm -rf content/posts/*
+rsync -avh $SRC_DIR/* $DEST_DIR/ --delete
+# ./transform-links.sh
+# python3 transform-links.py $DEST_DIR
+#rsync -avh $SRC_DIR/images/* $PWD/static/images/
