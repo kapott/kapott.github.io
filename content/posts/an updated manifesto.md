@@ -1,6 +1,6 @@
 ---
 date: 2024-01-01
-draft: true
+draft: false
 author: Tom Herder
 title: A hacker's manifesto, in 2024
 tags:

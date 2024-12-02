@@ -1,6 +1,6 @@
 ---
 date: 2024-11-28
-draft: true
+draft: false
 title: How to become a hacker
 tags:
   - hacking
@@ -18,10 +18,8 @@ There are enough podcasts, courses and MOOC's to get to where you want to go. Ju
 
 Or the TLDR; Eat, sleep, hack, repeat.
 
-I'm only half joking. From what I remember about the 1990's, the hacker community seemed like it was gatekept by elitist snobs who tried to ward of pimply-faced teens like myself.
+I'm only half joking. From what I remember about the 1990's, the hacker community seemed to me like it was gatekept by elitist snobs who tried to ward of pimply-faced teens like myself by using platitudes.
 
 The response to my question of "*how do I learn how to hack?*" was simple and effective - "*Be curious, learn a unix-based operating system, learn to create programs in C and then learn how to break your own programs. Then, eventually, you can break other people's programs as well. But most of all, be curious".
 
-  
-
-"*Be curious*". At the time it seemed like a platitude. Now, years later, this resonates most of all. It's the foundation. And this hasn't changed throughout the years.
+"*Be curious*".  Now, more than 20 years later, this resonates most of all. It really is the foundation. And this hasn't changed.
