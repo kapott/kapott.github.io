@@ -6,5 +6,5 @@
 
 source .env
 rm -rf content/posts/*
-rsync -avh $SRC_DIR/posts.* $DEST_DIR/ --delete
+rsync -avh $SRC_DIR/posts/* $DEST_DIR/ --delete
 rsync -avh $SRC_DIR/images/* static/images/ --delete
