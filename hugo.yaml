@@ -1,6 +1,6 @@
-baseURL: https://tomherder.io
+baseURL: https://kapott.io
 languageCode: en-us
-title: Tom Herder
+title: kapott
 theme: ["PaperMod"]
 enableEmoji: true
 params:
