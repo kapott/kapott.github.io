@@ -8,7 +8,7 @@ params:
   defaultTheme: auto
   homeInfoParams:
     Title: ":floppy_disk:"
-    Content: Just an entrepreneurial software developer / hacker navigating life through his obsession with puzzles, tech and futurism. Father of two. Neurodivergent. Loving life.
+    Content: Just an entrepreneurial software developer/hacker navigating life through his obsession with puzzles, tech and futurism. Neurodivergent. Loving life.
   socialIcons: # optional
     - name: "code."
       url: "https://github.com/kapott"
