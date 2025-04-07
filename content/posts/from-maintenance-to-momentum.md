@@ -5,9 +5,12 @@ title: From Maintenance to Momentum
 tags:
   - hacking
   - clear-thinking
+cover:
+  image: title.png
+  alt: "From maintenance to momentum"
+  caption: "From maintenance to momentum"
+  relative: false
 ---
-
-![A man contemplating his life in front of a window](from-maintenance-to-momentUm.png "From Maintenance To Momentum")
 
 I’ve used computers longer than most people have used their own names. I was around before the GUI, before Windows made everything clickable and cute. Back when everything was a prompt, and curiosity came with a blinking cursor.
 

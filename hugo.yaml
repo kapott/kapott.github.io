@@ -5,15 +5,26 @@ theme: ["PaperMod"]
 enableEmoji: true
 params:
   ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  TocOpen: true
+  ShowBreadCrumbs: true
   defaultTheme: auto
   homeInfoParams:
     Title: ":floppy_disk:"
     Content: Just an entrepreneurial software developer/hacker navigating life through his obsession with puzzles, tech and futurism. Neurodivergent. Loving life.
   socialIcons: # optional
-    - name: "code."
-      url: "https://github.com/kapott"
-    - name: "x, the platform formerly known as twitter."
+    - name: "Mastodon"
+      url: "#"
+      title: "Mastodon"
+    - name: "X"
       url: "https://x.com/kapott_"
+      title: "Twitter"
+    - name: "github"
+      url: "https://github.com/kapott"
+      title: "Github"
+
+
 outputs:
   home:
     - HTML
