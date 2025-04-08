@@ -46,7 +46,7 @@ I didn’t become a developer because I loved typing code. I became a developer 
 
 Languages are just tools. They’re not religions — they’re chosen based on context:
 
-- If I need speed:  
+- If I need output speed:  
   → JavaScript (Next.js, Node), Python (Flask/Django), Golang  
 - If I need scalability and handoff:  
   → Java (Spring), Python (Django)  
