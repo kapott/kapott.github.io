@@ -3,76 +3,112 @@ title: "About"
 layout: "post"
 url: "/about/"
 summary: about
+cover:
+  image: title.png
+  alt: "About me"
+  caption: "About me"
+  relative: false
 ---
 
-Hello there. Thanks for taking the time to read something about me. I'll quickly summarize some things, so you can click whatever draws your focus.
+# About Me
 
-- entrepreneur
-- software developer
-- hacker
-- puzzles
-- tech
-- futurism
-- father 
-- neurodivergent
+Hey there — I’m glad you’re here. I’ll keep it simple: here’s what I’m about. Pick what resonates and dive deeper if you’d like.
+
+- [Entrepreneur](#entrepreneur)
+- [Software Developer](#software-developer)
+- [Hacker](#hacker)
+- [Puzzle Addict](#puzzles)
+- [Technologist](#tech) 
+- [Futurist](#futurism)
+- [Father](#father) 
+- [Neurodivergent](#neurodivergent)
+
+---
 
 ## Entrepreneur
 
-I love building stuff and I love it even more when the stuff I build helps out people. Turns out that solving problems for people is a good way to make money. The way I do it is guided by some mental supports I picked up throughout my life:
+I’ve always been drawn to building things — especially when those things help people.
 
-- keep it as simple as possible
-- perfect is the enemy of done
-- any functional complex system grows from a functional simple system which is iterated upon
-- build tools that solve one thing, and solve it well
+Somewhere along the way, I realized that solving real problems is not only satisfying, but also sustainable. That’s how I approach entrepreneurship: not as a hustle, but as applied curiosity. I follow a few timeless principles:
 
-Not going to link what I made here, as that adds another layer of privacy protection for me and my family ;)
+- Keep it simple. Complexity fails silently.  
+- Perfect is the enemy of shipped.  
+- Every complex system begins as a simple one that worked.  
+- Build tools that solve one thing. Solve it well.  
 
-## Software developer
+I’m not linking past projects here — partly for privacy, partly because this isn’t about what I’ve done. It’s about how I think.
 
-Being a software developer is simply a natural outcome of my desire to build and my addiction to puzzles and problem-solving. Computers provide the perfect medium for combining both in a rapid, continuous feedback loop.
+---
 
-The language doesn't really matter that much, and it can change depending on the requirement and expected need to scale. 
+## Software Developer
 
-I'll use what I already know well enough to produce something if I want to be fast, I'll use whatever has the most available developers on the 'current jobmarket' if I need to create something enterprise-y which I'm not going to maintain myself in the future, and I'll use something fun if I want to experiment. 
+I didn’t become a developer because I loved typing code. I became a developer because I love solving problems and building systems that live beyond me.
 
-Examples;
+Languages are just tools. They’re not religions — they’re chosen based on context:
 
-I want to be fast with development:
-- Javascript, Nextjs, Node
-- Python, Django, Flask
-- Golang, net/http or Chi
+- If I need speed:  
+  → JavaScript (Next.js, Node), Python (Flask/Django), Golang  
+- If I need scalability and handoff:  
+  → Java (Spring), Python (Django)  
+- If I want to have fun:  
+  → Haskell, Rust, or bare-bones C
 
-I want to create something and need to find someone else to maintain it:
-- Java, Spring, Hibernate
-- Python, Django
+Ultimately, I write code to express intent — and to design leverage.
 
-I want to have fun:
-- Haskell, Yesod
-- Rust, Axum
-- C
+---
 
-## hacker
+## Hacker
 
-I'm hesitant to use the term. But I do love exploring the interconnected network of AS'es and finding things that are off. 
+I use the term carefully — not for bravado, but for orientation.
 
-Hacking sims like hack the box and tryhackme are excellent online puzzles which require an interconnected skillset and work really well for thinking laterally. Bugbounties allow me to scan and poke around without fear of repercussion.
+I like finding the seams in things. Network misconfigurations, exposed endpoints, misbehaving systems. Anything that feels off tends to pull at my attention until I understand *why*.
 
-I could do this all day, every day. This is like an infinite black hole, always exerting a pull on my conscious brain every time I encounter something off with tech. It's the "I wonder..." mental loop, applied to everything with an electronic interface.
+Platforms like Hack The Box and TryHackMe scratch the same itch as puzzles do — except they add the thrill of exploration. Bug bounties give me permission to poke around without the legal gray area. And when I’m in that zone — head down, tunnel vision, tracing threads through stack traces or headers — that’s when I feel most at home.
 
-## puzzles
+---
 
-Puzzles are about pattern recognition. Find the patterns, heuristics and algorithms that coalesce the parts into the finished product. Everything can be a puzzle - some puzzles just need knowledge from a broader required domain, or even multiple domains, to fully understand.
+## Puzzles
 
-And that's how I approach puzzles. I try to acquire knowledge for a certain puzzle piece by trying to figure out what the pieces are and what knowledge I need in order to use the piece the right way. This way of doing things leads me into digging deep into things I need to know.
+I don’t solve puzzles for fun. I solve them because I don’t know how *not* to.
 
-I'm fortunate enough to have basic understanding of math, physics, chemistry and biology on which I can grow other, often intertwining, "branches of understanding".
+Pattern recognition, domain fluency, lateral movement — it’s all a dance of abstraction and execution. Puzzles aren’t limited to Rubik’s cubes or Sudoku. They exist in broken APIs, misrouted traffic, business models, even human systems.
 
-## tech
+To solve them, I work backwards. What knowledge does this problem demand? What am I missing? Then I go learn it. That’s how I’ve picked up enough physics, biology, math, chemistry, and systems thinking to build a web of “know enough to figure it out.”
 
-Whenever I say "tech", I mean the profound impact technology has made, makes and can make on both the individual as well as the group level. As our species progresses, we seem to rely more and more on technology. We're all already implicitly cyborgs - the expressed form is just different from what we've seen and read in scifi.
+---
 
-## futurism
+## Tech
 
-## father 
+When I talk about “tech,” I don’t mean gadgets. I mean augmentation.
 
-## neurodivergent
+Technology — real technology — expands human potential. We’re already cyborgs in a very real sense. The interface is different from what science fiction promised, but the merge has already happened. Our phones hold our memories. Our systems guide our thoughts. Our networks shape our beliefs.
+
+Understanding how those systems work — and where they can be improved or abused — feels like a civic duty.
+
+---
+
+## Futurism
+
+The future isn’t linear. It arrives unevenly, often unnoticed.
+
+I think about trajectories. What happens when compute becomes ambient? When privacy disappears by default? When AI agents negotiate our decisions before we make them?
+
+I don’t pretend to have the answers. But I do enjoy standing on the edge and squinting into the fog.
+
+---
+
+## Father
+
+This is the real grounding force. My kids remind me daily that not everything needs to be optimized. That curiosity is contagious. That simplicity is a feature, not a bug.
+
+Being a father informs how I think about risk, time, legacy, and joy. It also makes everything more real.
+
+---
+
+## Neurodivergent
+
+ADHD and autism aren’t just labels — they’re operating systems.
+
+I think in patterns, not timelines. I hyperfocus. I forget small things and solve big ones. I need solitude to think, but can speak fluently in diagrams.
+
+The older I get, the more I realize: this is a feature, not a flaw. I build systems that work *with* the way my brain is wired — and they tend to be useful for others, too.
