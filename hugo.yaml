@@ -1,18 +1,21 @@
 baseURL: https://kapott.io
 languageCode: en-us
-title: kapott
+title: "kapott"
 theme: ["PaperMod"]
 enableEmoji: true
 params:
   ShowShareButtons: true
   ShowReadingTime: true
-  ShowToc: true
+  ShowToc: false
   TocOpen: true
   ShowBreadCrumbs: true
   defaultTheme: auto
   homeInfoParams:
-    Title: ":floppy_disk:"
-    Content: Just an entrepreneurial software developer/hacker navigating life through his obsession with puzzles, tech and futurism. Neurodivergent. Loving life.
+    Title: "&nbsp;"
+    Content: |
+      `[kapott@blog ~]$ _`
+
+      Just an entrepreneurial software developer/hacker navigating life through his obsession with puzzles, tech and futurism. Neurodivergent. Loving life."
   socialIcons: # optional
     - name: "Mastodon"
       url: "#"
