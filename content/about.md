@@ -4,7 +4,7 @@ layout: "post"
 url: "/about/"
 summary: about
 cover:
-  image: title.png
+  image: blog-title.png
   alt: "About me"
   caption: "About me"
   relative: false
