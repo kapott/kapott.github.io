@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-## Intro
-
 Meow is the first box in the hack the box intro series. If I were to just break these boxes and report on them it would be a bit boring. So I'll throw in some advice I'd give for preventing the specific attack vector as well.
 
 After answering the questions the people at HTB set up for meow, it was clear to me - before I fired up nmap - that telnet was open. This box was, as the difficulty stated, indeed very easy.

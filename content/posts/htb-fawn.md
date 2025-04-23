@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-## Intro
-
 Second box in the intro series. Another cakewalk, although one question about the box was a bit more finnicky. 
 
 This box is about a FTP server. Running `nmap`, as well as connecting to it through the `ftp` command give me the login prompt and version 3.0.3 for vsFTPd.

@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-## Intro
-
 Being box number 5 in the hack the box "starting point" introduction, it's an easy machine. Initial recon shows that this is also, very obviously, a windows machine:
 
 ![](explosion-1.png)

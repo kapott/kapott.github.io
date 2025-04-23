@@ -27,9 +27,9 @@ So I decided to turn that energy inward. To sharpen the blade again. Not with an
 
 I’d had an account for a while — like most tech folks, I registered out of curiosity, poked a few menus, and then forgot about it. But this time, I committed. If I was going to move from builder to breaker, I’d need a proving ground. HTB seemed like the right kind of arena.
 
-They noticed I was a first-timer and dropped me into a tour — a curated path through some of the “Very Easy” boxes. Not a challenge, per se. More like a memory test. A handshake with the fundamentals.
+They noticed I was a first-timer and dropped me into a tour — a curated path, presented in three batches, through some of the “Very Easy” boxes. Not a challenge, per se. More like a memory test. A handshake with the fundamentals.
 
-The boxes
+Batch 1: The key is a strong foundation
 1. [meow](/posts/htb-meow "meow")
 2. [fawn](/posts/htb-fawn "fawn")
 3. [dancing](/posts/htb-dancing "dancing")
@@ -50,6 +50,3 @@ It was nostalgic. And clarifying.
 For someone who wandered too deep into DevOps — into the realm of Terraform loops and CI failure chains — these boxes felt like a return to roots. To real systems. To real thinking.
 
 There’s something pure about it. You against a machine. No orchestration layers, no feature flags, no “this only fails in production.” Just an IP, a port, and the quiet question: what can I do with this?
-
-That’s where I’m heading. One step at a time.
-

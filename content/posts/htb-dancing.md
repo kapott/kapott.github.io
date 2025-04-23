@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-## Intro
-
 Box number 3 in the HTB intro, dancing is about a SMB share which requires no password to connect to, containing a "root" flag. After a short "man smbclient" to look up some of smbclient's REPL commands, I quickly acquired the flag.
 
 ![](dancing-1.png)

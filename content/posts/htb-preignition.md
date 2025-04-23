@@ -12,8 +12,6 @@ cover:
   relative: false
 ---
 
-## Intro
-
 Another "very easy" box in the "starting point" trail by Hack the Box - number 6. Let's start with our initial recon.
 
 ![](preignition-1.png)

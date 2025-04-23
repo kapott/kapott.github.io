@@ -11,8 +11,6 @@ cover:
   relative: false
 ---
 
-## Intro
-
 Box number 4 in the hack the box "starting point" trail. As this is another very easy box, let's run basic recon against it..
 
 ![](redeemer-1.png)
