@@ -26,7 +26,7 @@ params:
       ```
   socialIcons: # optional
     - name: "Mastodon"
-      url: "#"
+      url: "###"
       title: "Mastodon"
     - name: "X"
       url: "https://x.com/kapott_"
