@@ -14,11 +14,11 @@ params:
     Title: "🦊"
     Content: |
       ```
-      [kapott@blog ~]$ cat ~/Documents/intro.txt
+      [kapott@blog ~]$ cat ~/intro.txt
 
-      Just an entrepreneurial software developer/hacker 
-      navigating life through his obsession with puzzles, 
-      tech and futurism. Neurodivergent.
+      Just an entrepreneurial software dev/hacker 
+      navigating life through his obsession with 
+      puzzles, tech and futurism. Neurodivergent.
       
       Loving life.
 
