@@ -25,5 +25,11 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 
 Updating (or initializing the theme after the first git pull):
 ```sh
+git submodule update --init --recursive
+```
+
+and with every pull;
+
+```sh
 git pull --recurse-submodules
 ```
