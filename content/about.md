@@ -12,7 +12,7 @@ cover:
 
 # About Me
 
-Hey there — I’m glad you’re here. I’ll keep it simple: here’s what I’m about. Pick what resonates and dive deeper if you’d like.
+I build things. Usually software, sometimes companies. This is who I am and how I work.
 
 - [Entrepreneur](#entrepreneur)
 - [Software Developer](#software-developer)
@@ -27,88 +27,92 @@ Hey there — I’m glad you’re here. I’ll keep it simple: here’s what I�
 
 ## Entrepreneur
 
-I’ve always been drawn to building things — especially when those things help people.
+I start [micro-ISV's](https://www.joelonsoftware.com/2006/01/11/micro-isv-from-vision-to-reality-2/) because I see problems that need solving. Not from abstract business plans, but because something isn't working and could work better.
 
-Somewhere along the way, I realized that solving real problems is not only satisfying, but also sustainable. That’s how I approach entrepreneurship: not as a hustle, but as applied curiosity. I follow a few timeless principles:
+My approach is pragmatic. I look for working solutions, not perfect ones. What matters is whether people actually benefit from it. A good product solves one problem and does it thoroughly. Complexity is a luxury you can only afford once the basics are solid.
 
-- Keep it simple. Complexity fails silently.  
-- Perfect is the enemy of shipped.  
-- Every complex system begins as a simple one that worked.  
-- Build tools that solve one thing. Solve it well.  
-
-I’m not linking past projects here — partly for privacy, partly because this isn’t about what I’ve done. It’s about how I think.
+I don't link previous projects here. Partly for privacy, partly because it's irrelevant. What I've made says less than how I think.
 
 ---
 
 ## Software Developer
 
-I didn’t become a developer because I loved typing code. I became a developer because I love solving problems and building systems that live beyond me.
+I write code because it's the most efficient way to turn an idea into reality.
 
-Languages are just tools. They’re not religions — they’re chosen based on context:
+Languages are tools. I choose them based on what's needed, not what's popular. 
+- For quick prototypes I use JavaScript (Specifivally Nextjs) or Python with Flask.
+- For systems that need to scale and be maintained by others: Java with Spring or Python with Django.
+- For performance-critical components: Rust or Golang.
+- For fun and mental gymnastics: Haskell or C.
 
-- If I need output speed:  
-  → JavaScript (Next.js, Node), Python (Flask/Django), Golang  
-- If I need scalability and handoff:  
-  → Java (Spring), Python (Django)  
-- If I want to have fun:  
-  → Haskell, Rust, or bare-bones C
+Code is a means. The goal is to build something that works and keeps working after I'm gone.
 
-Ultimately, I write code to express intent — and to design leverage.
 
 ---
 
 ## Hacker
 
-I use the term carefully — not for bravado, but for orientation.
+I use this word deliberately. It's not about breaking in, but about understanding how systems actually work.
+I look for weak spots. Not to exploit them, but because they show me where the assumptions are. 
 
-I like finding the seams in things. Network misconfigurations, exposed endpoints, misbehaving systems. Anything that feels off tends to pull at my attention until I understand *why*.
+Every system has assumptions. Those assumptions are interesting.
 
-Platforms like Hack The Box and TryHackMe scratch the same itch as puzzles do — except they add the thrill of exploration. Bug bounties give me permission to poke around without the legal gray area. And when I’m in that zone — head down, tunnel vision, tracing threads through stack traces or headers — that’s when I feel most at home.
+I use platforms like Hack The Box and TryHackMe to keep that skill sharp. Bug bounties give me a legal way to poke at other people's infrastructure without lawyers getting involved.
+
+When I'm working on a technical problem, the world around me disappears. I follow threads through logs, headers, stack traces until I understand why something fails. That's when I feel most comfortable.
+
 
 ---
 
 ## Puzzles
 
-I don’t solve puzzles for fun. I solve them because I don’t know how *not* to.
+I solve puzzles because I can't stop until I have the answer.
+It doesn't matter if it's Rubik's cubes, broken APIs, bad routing, or a poorly designed process. If there's a pattern and it doesn't add up, I need to know why.
 
-Pattern recognition, domain fluency, lateral movement — it’s all a dance of abstraction and execution. Puzzles aren’t limited to Rubik’s cubes or Sudoku. They exist in broken APIs, misrouted traffic, business models, even human systems.
+I work backwards. What do I need to know to solve this? What knowledge am I missing? Then I go learn it. 
 
-To solve them, I work backwards. What knowledge does this problem demand? What am I missing? Then I go learn it. That’s how I’ve picked up enough physics, biology, math, chemistry, and systems thinking to build a web of “know enough to figure it out.”
+That's how I've picked up enough physics, biology, chemistry, and mathematics to navigate different domains. Not everything in depth, but enough to ask the right questions.
 
 ---
 
 ## Tech
 
-When I talk about “tech,” I don’t mean gadgets. I mean augmentation.
+Technology is human extension. We're already cyborgs, it just looks different than in the movies.
 
-Technology — real technology — expands human potential. We’re already cyborgs in a very real sense. The interface is different from what science fiction promised, but the merge has already happened. Our phones hold our memories. Our systems guide our thoughts. Our networks shape our beliefs.
+Our memory lives in our phones. Our navigation is outsourced to GPS. Our communication runs through systems we don't own. That's not criticism, that's observation.
 
-Understanding how those systems work — and where they can be improved or abused — feels like a civic duty.
+Understanding how those systems work—and where they fail—feels like a responsibility. Not everyone needs to know how a database works, but someone has to know. I'm happy to be one of those someones.
 
 ---
 
 ## Futurism
 
-The future isn’t linear. It arrives unevenly, often unnoticed.
+The future doesn't arrive linearly. It shows up in fragments, in places you don't expect.
 
-I think about trajectories. What happens when compute becomes ambient? When privacy disappears by default? When AI agents negotiate our decisions before we make them?
-
-I don’t pretend to have the answers. But I do enjoy standing on the edge and squinting into the fog.
+I think about what happens when compute is everywhere. When privacy becomes the exception instead of the default. When AI systems make decisions before we think about them.
+I don't have answers. But I think it's important to ask these questions.
 
 ---
 
 ## Father
 
-This is the real grounding force. My kids remind me daily that not everything needs to be optimized. That curiosity is contagious. That simplicity is a feature, not a bug.
+This is what keeps me grounded. My kids show me daily that not everything needs to be more efficient. 
 
-Being a father informs how I think about risk, time, legacy, and joy. It also makes everything more real.
+That curiosity is contagious. 
+
+That simple is sometimes better than clever.
+
+Being a father changes how I look at risk, at time, at what I leave behind. It makes everything more real.
 
 ---
 
 ## Neurodivergent
 
-ADHD and autism aren’t just labels — they’re operating systems.
+ADHD and autism are part of my operating system. Getting diagnosed, and educated about it, was like getting a user manual on your own operating system.
 
-I think in patterns, not timelines. I hyperfocus. I forget small things and solve big ones. I need solitude to think, but can speak fluently in diagrams.
+I can focus on one thing for hours and forget to eat.
+ 
+I need silence and time to think, but can explain fluently through diagrams.
 
-The older I get, the more I realize: this is a feature, not a flaw. I build systems that work *with* the way my brain is wired — and they tend to be useful for others, too.
+The older I get, the clearer it becomes: this isn't a bug. It's how I work. 
+I build systems that fit how my brain functions. And usually those work for others too.
