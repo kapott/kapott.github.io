@@ -1,5 +1,5 @@
 ---
-date: 2025-04-06
+date: 2025-04-02
 draft: false
 slug: starting-point
 title: "Hack The Box: Starting point"
@@ -7,7 +7,7 @@ tags:
   - hacking
   - htb
 cover:
-  image: title.png
+  image: title-2.png
   alt: "Starting point"
   caption: "Starting point"
   relative: false

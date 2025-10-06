@@ -1,9 +1,14 @@
 ---
-date: 2024-11-28
+date: 2024-03-01
 draft: true
-title: How to become a hacker
+title: How to become a hacker in the 90's
 tags:
   - hacking
+cover:
+  image: title.png
+  alt: "Zerocool screaming hack the planet"
+  caption: "I'm not zero enough to be this cool."
+  relative: false
 ---
 
 Whenever I open my youtube feed, I get these "how to get into cybersecurity" video's, which offer their courses or some kind of six-week bootcamp. "Just follow these steps and within 30 days you too can have a six-figure job." - I call bullshit.
