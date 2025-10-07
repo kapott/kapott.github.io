@@ -1,5 +1,5 @@
 ---
-date: 2025-10-1T10:34:13+00:00
+date: 2025-10-01T10:34:13+00:00
 draft: false
 title: Useful commandline tools
 tags:

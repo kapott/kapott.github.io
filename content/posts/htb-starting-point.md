@@ -37,7 +37,7 @@ Batch 1: The key is a strong foundation
 5. [explosion](/posts/htb-explosion "explosion")
 6. [preignition](/posts/htb-preignition "preignition")
 7. [mongod](/posts/htb-mongod "mongod")
-8. [synced](/posts/htb-synced "synced")
+8. [synced](/posts/htb-sync "sync")
 
 Straightforward — but revealing. They weren’t hard. They weren’t supposed to be. They were reminders.
 
