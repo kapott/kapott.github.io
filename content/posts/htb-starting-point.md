@@ -39,11 +39,11 @@ Batch 1: The key is a strong foundation
 7. [mongod](/posts/htb-mongod "mongod")
 8. [synced](/posts/htb-sync "sync")
 
-Straightforward — but revealing. They weren’t hard. They weren’t supposed to be. They were reminders.
+Straightforward — but revealing. They weren’t hard. But then again, they weren’t supposed to be.
 
 ## What I Took From It
 
-These weren’t puzzles; they were signals. Echoes from a time when we debugged login forms by hand and cracked services because we understood their default behavior.
+These were signals. Echoes from a time when we debugged login forms by hand and cracked services because we understood their default behavior.
 
 It was nostalgic. And clarifying.
 
