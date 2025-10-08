@@ -7,9 +7,9 @@ tags:
   - linux
   - productivity
 cover:
-  image: title-3.png
-  alt: "A hacker, connected to his flow."
-  caption: "Not quite as zen as this guy, but close enough."
+  image: linux-commandline-tools.png
+  alt: "A fox typing on a keyboard, looking slyly at the camera. Old servers in the background."
+  caption: "This fox is clearly using zsh."
   relative: false
 ---
 
