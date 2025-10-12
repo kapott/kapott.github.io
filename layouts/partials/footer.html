@@ -1,0 +1,2 @@
+{{ $lb := resources.Get "js/extended/lightbox.js" | resources.Minify }}
+<script defer src="{{ $lb.RelPermalink }}"></script>

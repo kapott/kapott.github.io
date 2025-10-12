@@ -1,18 +1,29 @@
 {{- $img := .Page.Resources.GetMatch .Destination -}}
 {{- if and (not $img) .Page.File -}}
-{{ $path := path.Join .Page.File.Dir .Destination }}
-{{- $img = resources.Get $path -}}
+  {{- $path := path.Join .Page.File.Dir .Destination -}}
+  {{- $img = resources.Get $path -}}
 {{- end -}}
-{{- with $img -}}
-{{- $large := $img.Resize "1200x" -}}
-{{ $medium := $large.Fill "726x402" -}}
-{{ $small := $medium.Fill "458x254" -}}
-<figure class="image-caption">
-    <img alt="{{ $.Text }}" srcset="
-        {{ $small.RelPermalink }} 458w,
-        {{ $medium.RelPermalink }} 726w,
-        {{ $large.RelPermalink }} 1200w" sizes="50vw" src="{{ $small.RelPermalink }}" />
-    <figcaption>{{ with $.Title | safeHTML }}{{ . }}{{ end }}</figcaption>
-</figure>
+
+{{- $alt := .Text | default "" -}}
+{{- $title := .Title | default "" -}}
+
+{{- if $img -}}
+  {{- $w480 := $img.Resize "480x" -}}
+  {{- $w800 := $img.Resize "800x" -}}
+  {{- $w1200 := $img.Resize "1200x" -}}
+  <figure class="image-caption">
+    <a href="{{ $img.RelPermalink }}" class="lightbox" data-title="{{ $title }}">
+      <img
+        alt="{{ $alt }}"
+        src="{{ $w800.RelPermalink }}"
+        srcset="{{ $w480.RelPermalink  }} 480w, {{ $w800.RelPermalink }} 800w, {{ $w1200.RelPermalink }} 1200w"
+        sizes="(min-width: 800px) 800px, 100vw"
+        loading="lazy" decoding="async" />
+    </a>
+    {{- if $title -}}<figcaption>{{ $title | safeHTML }}</figcaption>{{- end -}}
+  </figure>
 {{- else -}}
-<img src="{{ .Destination | safeURL }}" alt="{{ $.Text }}" />{{- end -}}
+  <a href="{{ .Destination | safeURL }}" class="lightbox" data-title="{{ $title }}">
+    <img src="{{ .Destination | safeURL }}" alt="{{ $alt }}" loading="lazy" decoding="async" />
+  </a>
+{{- end -}}

@@ -1,0 +1,21 @@
+/* inline afbeeldingen in posts */
+.post-single .post-content img,
+.post-single .post-content figure img {
+  width: 100%;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* cover bovenaan single post */
+.post-single .post-cover img {
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* cover thumbnails in lijsten/overzicht */
+.post-entry .entry-cover img {
+  height: auto !important;
+  object-fit: contain !important;
+}
+/* optioneel: vaste crop-hoogte uitschakelen als theme die zet */
+.post-entry .entry-cover { max-height: none !important; }
