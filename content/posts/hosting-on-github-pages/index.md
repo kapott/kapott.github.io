@@ -1,7 +1,7 @@
 ---
-date: '2025-10-02T15:17:11+02:00'
+date: '2023-04-02T15:17:11+02:00'
 draft: true
-title: 'Early days of my not-a-blog'
+title: 'Hello World, I’m Live! GitHub Pages and the Art of Not Screwing Up'
 tags:
  - devops
 cover:
@@ -11,52 +11,15 @@ cover:
   relative: false
 ---
 
-I won't even write how I did this, as it's on the introduction pages of Github pages. It's not a technical feat to get a "free" blog up and running by using Github and github actions. There is no challenge here, just follow the docs and everything "just works". It's common. It's trite. It's proven.
+Alright, gather ‘round, fellow code wranglers, because I’m about to regale you with the epic tale of how I set up a blog using GitHub Pages. Spoiler alert: it’s about as thrilling as debugging a misplaced semicolon, but stick with me—it’s got a happy ending.
 
-And that's exactly what reliable technology should be.
+I’m not going to bore you with a line-by-line tutorial. Why? Because the GitHub Pages docs are basically the “Hello, World!” of web hosting guides. If you can survive a git push without triggering a merge conflict, you can get a free blog up and running faster than you can say “404: Motivation Not Found.” No PhD in Kubernetes required—just follow the steps, and boom, your Hugo blog is live, courtesy of a Docker image and some CDN magic. It’s so easy, I almost felt guilty for not struggling more. Almost.
 
-Did I learn a lot about git, github, github pages, github actions during this process? No. not really. But being a senior devel-ops-er I did pick up a bit of syntax about how these particular tools and systems work together.
+Now, don’t get me wrong—this isn’t some grand technical odyssey. It’s not like I was wrestling with a segfault in C or trying to make sense of a 500-line regex. GitHub Pages just works. Like, scarily well. It’s the kind of reliable tech that makes you suspicious, like when your CI pipeline passes on the first try. You know what I mean—you squint at it, waiting for the inevitable “build failed” email. But nope, GitHub Pages just builds your site, slaps it on a global CDN, and calls it a day. It’s the DevOps equivalent of a golden retriever: loyal, dependable, and doesn’t chew up your commits.
 
-Gitlab pages work similarly. Hosting a static page with Hugo on S3 and putting a CDN in front of it is also a manual equivalent requiring much more work. Github pages just works, it builds my hugo blog with a docker image and deploys it to something, which is backed by a global CDN. It's hassle-free.
+Did I become a GitHub Actions wizard or unlock the secrets of git rebase in the process? Nah. As a senior DevOps-er (cue the dramatic air quotes), I picked up a few bits of syntax trivia, like how GitHub Pages and Actions hold hands to make your blog go live. It’s not life-changing, but it’s nice to know, like discovering a new VS Code shortcut or finally understanding why your Dockerfile needs that one weird RUN command.
 
-### The alternative
+For comparison, GitLab Pages is like GitHub Pages’ cousin who shows up to the family reunion with the same potato salad recipe. It’s fine, it works, but it’s not winning any originality awards. And if you’re feeling extra masochistic, you could manually host a Hugo site on S3 with a CDN out front. But that’s like writing your own ORM instead of using an existing one—sure, you could, but why punish yourself when GitHub Pages does the heavy lifting? It’s like choosing to cat a 10,000-line log file instead of using grep. Work smarter, not harder, folks.
 
-If I wanted to go full manual, it'd go something like this:
-
-```
-nextjs project in git
-  -> git commit
-  -> remote git repo 
-  -> ci tool 
-  -> build static assets using docker image 
-  -> push assets to blob store (minio/ceph) 
-  -> make bucket publicly accessible 
-  -> use something like nginx to serve the files 
-  -> put a CDN in front of nginx DNS address
-  -> heavily use caching policies.
-```
-
-And now it's
-
-```
-markdown in git
-  -> git commit
-  -> remote git repo 
-  -> some ci tool template
-  -> gitlab/github hosted pages with CDN in front of it
-  -> dns record pointing to hosted page
-```
-Much simpler to maintain.
-
-### Ergo
-
-Now why then, am I writing all of this? Well, first, because I need to learn how to write (trite, right?). And apparently [the process of writing and learning new tech is more interesting to read and watch than endgame fully-polished tutorial-like blogposts](https://austinkleon.com/show-your-work/). So, there's that.
-
-The amount of blogs which start and end on the blogpost "How I created this blog" is astounding. But I get it. Keeping up a blog is hard. Regular timeblocking to write blogs are hard. A blogpost by itself is an entire project, not to be undertaken lightly. You have to write a click-inducing title, research keywords, write a coherent text and make sure people interact with your blog.
-
-So I won't call this a blog. This is a dumping ground of technical ramblings. An excercise in getting my thoughts out there.
-
-I will not research keywords - I might ask chatgpt or claude to sprinkle some in after the article was written. I also won't use AI to write, as that would defeat the purpose of acquiring the skill of writing itself.
-
-So buckle up buttercup! I won't be writing masterpieces from day 1, but I'll sure as hell try to provide you with some nuggets of wisdom.
+So here I am, blogging away on my shiny, hassle-free, CDN-powered slice of the internet. It’s not the stuff of developer legend, but it’s reliable, it’s fast, and it didn’t make me cry into my terminal. In a world of “works on my machine” chaos, that’s practically a love letter from the tech gods. Now, if you’ll excuse me, I have some commits to push and a coffee to debug. ☕
 
